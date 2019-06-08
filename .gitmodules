@@ -1,3 +1,6 @@
 [submodule "three"]
 	path = three
 	url = https://github.com/mrdoob/three.js.git
+[submodule "webxr"]
+	path = webxr
+	url = https://github.com/immersive-web/webxr-samples.git
