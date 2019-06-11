@@ -32,7 +32,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
     box.rotation.x += 0.05;
     box.rotation.y += 0.05;
-    box.scale.x *= 0.99;
+    box.scale.x *= 0.999;
+    box.scale.y *= 1.001;
 
     // 描画
     renderer.render(scene, camera);
